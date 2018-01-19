@@ -1,0 +1,214 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 2em 2em 4em;
+}
+
+h2 {
+    margin-top: 7%;
+}
+
+p span {
+    font-style:  italic;
+}
+
+.header img {
+    max-height: 38px;
+    float: left;
+}
+.ipalinks li a {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.ipalinks li a:hover {
+    color: #000;
+}
+
+.ipalinks li {
+    margin-top: 2%;
+}
+.ipalinks li img{
+    max-height: 1em;
+    margin-left: 3%;
+}
+.header h1 {
+    position: relative;
+}
+
+.header h1 span {
+    font-size: 0.7em;
+    font-weight: 400;
+}
+.impactor {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border: 1px solid #828282;
+}  
+
+.gallery1 img{
+    max-height: 70px;
+    margin-right: 1.5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+.gallery2 img{
+    max-height: 70px;
+    margin-right: 1.5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.gallery3 img{
+    max-height: 70px;
+    margin-right: 1.5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.gallery4 img{
+    max-height: 70px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.menu1 {
+    background-color: lightgrey;
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.menu2 {
+    background-color: lightgrey;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+
+.menu1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu1, .menu2, .language {
+    display: inline;
+}
+
+.space {
+    height: 20px;
+}
+
+.language {
+    float: right;
+}
+
+.language img {
+    width: 50%;
+    border-radius: 2px;
+}
+
+@media only screen and (max-width: 500px) {
+    .impactor {
+        width: 90%;
+        margin-left: 5%;
+    }
+    
+    h2 {
+        margin-top: 15%;
+    }
+}
+
+@media only screen and (min-width: 801px) {
+    html {
+        background: #efefef;
+    }
+    
+    body {
+        background: #fff;
+        border-radius: 20px;
+    }
+}
+
+/* Animation*/
+    .info {
+      margin-top: 8% 
+    }
+
+    .animation {
+      text-align: center;
+      font-size: 15px;
+      font-family: 'Roboto', sans-serif;
+      width:100%;
+      margin: 0 auto;
+      color:#313131;
+      -webkit-animation:colorchange 20s infinite alternate;
+    }
+
+    @-webkit-keyframes colorchange {
+      0% {
+        
+        color: royalblue;
+      }
+      
+      10% {
+        
+        color: #8e44ad;
+      }
+      
+      20% {
+        
+        color: #1abc9c;
+      }
+      
+      30% {
+        
+        color: #d35400;
+      }
+      
+      40% {
+        
+        color: royalblue;
+      }
+      
+      50% {
+        
+        color: #34495e;
+      }
+      
+      60% {
+        
+        color: royalblue;
+      }
+      
+      70% {
+        
+        color: #2980b9;
+      }
+      80% {
+     
+        color: forestgreen;
+      }
+      
+      90% {
+     
+        color: #2980b9;
+      }
+      
+      100% {
+        
+        color: pink;
+      }
+    }
